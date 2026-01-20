@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India's Invisible Citizens - Research Hub</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+            --card-bg: #fff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            margin-bottom: 1rem;
+        }
+
+        .author {
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--accent-color);
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s;
+            margin-right: 1rem;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        .dashboard-container {
+            width: 100%;
+            height: 800px;
+            border: none;
+            background: #f0f0f0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--primary-color);
+            color: white;
+            margin-top: 3rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 1rem;
+            background: #fdfdfd;
+            border-radius: 8px;
+            border: 1px solid #eee;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>India's Invisible Citizens</h1>
+    <div class="subtitle">Bridging Aadhaar Exclusion Zones Through Data-Driven Mobile Enrollment Strategy</div>
+    <div class="author">By Divyanshu Patel | UIDAI Data Hackathon 2026</div>
+    <div style="margin-top: 2rem;">
+        <a href="#dashboard" class="btn">View Interactive Dashboard</a>
+        <a href="FINAL_REPORT.md" class="btn btn-outline" target="_blank">Read Full Report</a>
+    </div>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Abstract</h2>
+        <p>
+            Despite India's Aadhaar program enrolling over 1.3 billion residents, significant exclusion zones persist, particularly affecting vulnerable populations in remote and tribal areas. This research presents a comprehensive data-driven analysis of Aadhaar enrollment patterns across 1,045 districts and 49 states/UTs, identifying critical gaps in coverage.
+        </p>
+        <p>
+            Using advanced machine learning techniques (Gradient Boosting Classifier with 99.04% accuracy), we developed a risk prediction model that successfully identifies high-exclusion districts based on demographic, geographic, and biometric authentication patterns. Our analysis reveals that 174 districts (16.7%) exhibit high exclusion risk, with children aged 0-5 years disproportionately affected.
+        </p>
+        
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-value">174</div>
+                <div class="stat-label">High-Risk Districts</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">99.04%</div>
+                <div class="stat-label">Model Accuracy</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">3,403%</div>
+                <div class="stat-label">Projected ROI</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">450k+</div>
+                <div class="stat-label">Citizens Targeted</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" id="dashboard">
+        <h2>Interactive Analysis Dashboard</h2>
+        <p>Explore the comprehensive visualizations of enrollment patterns, risk distribution, and intervention strategies below. This dashboard aggregates all key metrics used in our research.</p>
+        <!-- Embedding the comprehensive dashboard -->
+        <iframe src="outputs/dashboard/05_comprehensive_dashboard.html" class="dashboard-container" title="Comprehensive Dashboard"></iframe>
+    </div>
+
+    <div class="card">
+        <h2>Key Visualizations</h2>
+        <p>Quick links to specific high-resolution interactive charts:</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <a href="outputs/dashboard/02_exclusion_risk_map.html" target="_blank" class="btn btn-outline" style="font-size: 0.9rem;">Exclusion Risk Map</a>
+            <a href="outputs/dashboard/02_age_distribution.html" target="_blank" class="btn btn-outline" style="font-size: 0.9rem;">Age Distribution</a>
+            <a href="outputs/dashboard/05_priority_districts_map.html" target="_blank" class="btn btn-outline" style="font-size: 0.9rem;">Priority Districts</a>
+            <a href="outputs/dashboard/02_monthly_enrollment_trend.html" target="_blank" class="btn btn-outline" style="font-size: 0.9rem;">Enrollment Trends</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Divyanshu Patel | UIDAI Data Hackathon Research Submission</p>
+</footer>
+
+</body>
+</html>

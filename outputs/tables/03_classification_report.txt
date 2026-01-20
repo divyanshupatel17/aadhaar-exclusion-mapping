@@ -1,0 +1,10 @@
+UIDAI Data Hackathon 2026 - Model Classification Report
+================================================================================
+              precision    recall  f1-score   support
+
+    Low Risk       0.99      1.00      0.99       188
+   High Risk       1.00      0.90      0.95        21
+
+    accuracy                           0.99       209
+   macro avg       0.99      0.95      0.97       209
+weighted avg       0.99      0.99      0.99       209
