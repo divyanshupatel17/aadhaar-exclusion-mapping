@@ -42,3 +42,6 @@ dataset/*.csv
 
 # Brain
 brain/
+
+#temp files
+temp_files/

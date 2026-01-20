@@ -1,0 +1,60 @@
+* Online UIDAI–NIC hackathon on data-driven innovation using anonymised Aadhaar datasets
+
+* Objective: find patterns, trends, anomalies, and insights for decision-making and system improvement
+
+* Eligibility: students (18+) from accredited Indian institutions
+
+* Participation: individual or teams up to 5; one team per participant
+
+* UIDAI/NIC service delivery personnel not eligible
+
+* Registration via JanParichay and event.data.gov.in
+
+* Accurate and updated details required; single account only
+
+* Hackathon duration: 15 days (idea submission period included)
+
+* Mode: online; shortlisted teams present in person
+
+* Travel expenses reimbursed for shortlisted teams
+
+* Problem focus: societal trends in Aadhaar enrolment and updates
+
+* Prizes for top 5 submissions (1st to 5th) with cash awards and certificates
+
+* Submission: one consolidated PDF
+
+* Includes problem statement, datasets used, methodology, analysis, visualisations, and code/notebooks
+
+* Aadhaar dataset usage mandatory
+
+* Evaluation criteria:
+
+  * Data analysis and insights
+  * Creativity and originality
+  * Technical implementation quality
+  * Visualisation and presentation
+  * Impact and applicability
+
+* Original work only; no prior publication or awards
+
+* No false information or multiple accounts
+
+* No unlawful, malicious, or harmful content
+
+* Winning solutions must be maintained for one year
+
+* Jury decision final; UIDAI may modify terms or disqualify entries
+
+* Allowed tools: any programming, analytics, or visualisation tools
+
+* Open-source tools encouraged; AI/ML allowed
+
+* FAQ highlights:
+
+  * Teams allowed, but no multiple team membership
+  * Only shortlisted teams attend in-person presentations
+  * Evaluation by jury panel
+  * False information leads to disqualification
+
+* Contact for queries: [sitaa-support@uidai.net.in](mailto:sitaa-support@uidai.net.in) (CC: [ndsap@gov.in](mailto:ndsap@gov.in))
