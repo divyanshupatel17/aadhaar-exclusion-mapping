@@ -1,8 +1,10 @@
-# UIDAI Data Hackathon 2026
-
-## Project: India's Invisible Citizens - Bridging Aadhaar Exclusion Zones
-
-**Author:** Divyanshu Patel  
+| | |
+|---|---|
+| **Project Name** | India's Invisible Citizens: Bridging Aadhaar Exclusion Zones Through Data-Driven Mobile Enrollment Strategy |
+| **Hackathon** | 2026 Data Hackathon UIDAI |
+| **Organizer** | UIDAI GOV |
+| **Hackathon URL** | [Event Page](https://event.data.gov.in/challenge/uidai-data-hackathon-2026/) |
+| **Team Lead** | Divyanshu Patel |
 
 ---
 
